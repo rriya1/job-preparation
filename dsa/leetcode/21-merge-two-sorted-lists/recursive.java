@@ -1,13 +1,3 @@
-/*
-NOTES:
-To get to the recursive approach, think about the choice/decision to make here.
-you're picking which head to attach next, the one with the smaller value. 
-Once you pick it, you move past it, so the remaining input naturally shrinks by one node each time.
-*/
-
-// time complexity: o(n+m) ; the number of times we are calling the function and each function call takes o(1)
-// space complexity: o(n+m) ; the number of times the function stack is build i.e. the number of times the function was called here. 
-
 /**
  * Definition for singly-linked list.
  * public class ListNode {
