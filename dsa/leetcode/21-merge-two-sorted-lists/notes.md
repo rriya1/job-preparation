@@ -23,8 +23,9 @@ maintain one current pointer, one previous pointer and a head pointer for both l
 
 ### Intuition
 <!-- Describe your first thoughts on how to solve this problem. -->
-Came to the conslcusion after primitively thinking about pointers, 
-maintain one current pointer, one previous pointer and a head pointer for both lists. 
+To get to the recursive approach, think about the choice/decision to make here.
+you're picking which head to attach next, the one with the smaller value. 
+Once you pick it, you move past it, so the remaining input naturally shrinks by one node each time.
 
 ### Approach
 <!-- Describe your approach to solving the problem. -->
