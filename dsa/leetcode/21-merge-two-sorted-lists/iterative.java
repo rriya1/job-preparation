@@ -1,12 +1,3 @@
-/*
-NOTES:
-Came to the conslcusion after primitively thinking about pointers, 
-maintain one current pointer, one previous pointer and a head pointer for both lists. 
-*/
-
-// time complexity: o(m+n) ; because we are traversing both lists one by one.
-//space complexity: o(1) ; using a handful of variables to do the task by reference.
-
 /**
  * Definition for singly-linked list.
  * public class ListNode {
