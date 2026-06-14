@@ -1,4 +1,5 @@
 <!-- any brief remarks -->
+- [ ] how to do it without recursion and loops?
 
 ## Recursive:
 <!-- type of solution -->
