@@ -16,6 +16,15 @@
 - **Loop use karo recursion ki jagah → space O(log n) se O(1) ho jaata hai.**
   Recursion me har call ek stack frame banata hai — depth jitni, utna space. Wohi kaam iterative loop se karo toh koi stack frame nahi, sirf variables. Power of 3 recursion → O(log n) space. While loop wala → O(1) space.
 
+- **Linear recursion (no branching) → Time O(n), Space O(n).**
+  Har call ek kaam karti hai aur ek hi aage jaati hai. n calls = O(n) time. Saare n frames ek saath stack pe rehte hain jab tak base case nahi aata — isiliye space bhi O(n). Iterative loop se same kaam karo toh space O(1) ho jaata hai.
+  
+- **Branching recursion → Time O(b^d), Space O(depth).**
+  Agar har call `b` recursive calls karti hai aur tree ki depth `d` hai toh total nodes = O(b^d) = time complexity. Space phir bhi sirf ek path ki height hai — left subtree complete hone ke baad uske frames pop ho jaate hain, tab right shuru hota hai. Dono branches ek saath stack pe nahi rehte.
+  
+- **Branching factor se space nahi badti, sirf time badti hai.**
+  Chahe 2 branches hon ya 3 — space hamesha O(depth) rehti hai. Time exponential ho jaati hai (O(2^n), O(3^n)), space nahi.
+  
 ---
 
 ## Recursion & Backtracking
