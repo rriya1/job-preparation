@@ -1,5 +1,7 @@
 # Two Pointer / Sliding Window
 
+https://www.youtube.com/watch?v=9kdHxplyl5I&t=446s
+
 ## Core Concept
 - 2 pointers (l, r) array/string pe range define karte hain
 - 2 moves: **expand** (r++) aur **shrink** (l++)
