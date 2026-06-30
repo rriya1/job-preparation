@@ -4,7 +4,7 @@
 - 2 pointers (l, r) array/string pe range define karte hain
 - 2 moves: **expand** (r++) aur **shrink** (l++)
 - Har sliding window problem two pointer hai, but har two pointer problem sliding window nahi
-  - Same direction pointers and continuous → sliding window
+  - Same direction pointers → sliding window
   - Opposite direction pointers → two pointer (non-window)
 
 ---
@@ -50,12 +50,22 @@
 - "Count subarrays" jisme something **exactly equals k**
 - Directly count karna mushkil hota hai, trick use karo: `atMost(k) - atMost(k-1)`
 
+### Why directly "exactly k" count nahi kar sakte?
+- Jab condition < k → expand (aur chahiye)
+- Jab condition > k → shrink (zyada ho gaye)
+- Jab condition = k → **kya karein?** Expand bhi kar sakte (shayad longer valid mile), shrink bhi kar sakte. Decision unclear hai. Isliye atMost trick lagao jahan decision always clear hai: ≤ k valid, > k shrink.
+
 ### Template:
 <!-- code baad me add karna -->
 
 ### Key decisions at each step:
 1. Condition kya hai jo ≤ k me convert hogi?
-2. Count kaise nikalta hai? → valid window [l...r] me r pe end hone wale subarrays = (r - l + 1), i.e., [l,r], [l+1,r], ... [r,r]
+
+### Why `count += (r - l + 1)`?
+- Har step me r ek aage badhta hai. Hum sirf **r pe end hone wale naye valid subarrays** count karte hain.
+- Window [l..r] valid hai → r pe end hone wale subarrays: [l..r], [l+1..r], [l+2..r], ... [r..r]
+- Inka total = (r - l + 1), kyunki starting point l se lekar r tak kuch bhi ho sakta hai.
+- **Double counting nahi hota** kyunki pichle step me r-1 pe end hone wale already count ho chuke hain. Har step sirf current r ke subarrays add karta hai.
 
 ### Problems solved:
 
