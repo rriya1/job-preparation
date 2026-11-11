@@ -1,4 +1,15 @@
-<!-- any brief remarks -->
+# 643. Maximum Average Subarray I
+[LeetCode](https://leetcode.com/problems/maximum-average-subarray-i/) · **Pattern:** [Constant Window](../../patterns/two-pointer-sliding-window.md)
+
+**Key insight:** <!-- one line to remember this problem by -->
+
+| Approach | Time | Space |
+|----------|------|-------|
+| [Constant Window](ConstantWindow.java) | O(n) | O(1) |
+
+**Remarks:** <!-- gotchas, comparisons between approaches, TODOs -->
+
+---
 
 ## Constant Window:
 <!-- type of solution -->

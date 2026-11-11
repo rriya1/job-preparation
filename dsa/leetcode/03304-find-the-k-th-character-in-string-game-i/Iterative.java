@@ -1,4 +1,4 @@
-class Solution {
+class Iterative {
     public char kthCharacter(int k) {
         String word = "a";
         while(word.length()<k){

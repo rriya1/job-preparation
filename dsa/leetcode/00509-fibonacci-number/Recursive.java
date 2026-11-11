@@ -1,4 +1,4 @@
-class Solution {
+class Recursive {
     public int fib(int n) {
         if(n<2)
             return n;

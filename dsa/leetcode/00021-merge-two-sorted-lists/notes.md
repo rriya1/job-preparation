@@ -1,4 +1,18 @@
-Iterative solution gives a better space complexity in merging 2 sorted linked lists because in iteratove we perform all operations through one set of varibales while in recursive the same was achieved by constructing a call stack. 
+# 21. Merge Two Sorted Lists
+[LeetCode](https://leetcode.com/problems/merge-two-sorted-lists/) · **Pattern:** Linked List · Recursion
+
+**Key insight:** <!-- one line to remember this problem by -->
+
+| Approach | Time | Space |
+|----------|------|-------|
+| [Iterative](Iterative.java) | O(m+n) | O(1) |
+| [Recursive](Recursive.java) | O(m+n) | O(m+n) |
+
+**Remarks:**
+
+Iterative solution gives a better space complexity in merging 2 sorted linked lists because in iteratove we perform all operations through one set of varibales while in recursive the same was achieved by constructing a call stack.
+
+---
 
 ## iterative:
 

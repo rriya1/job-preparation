@@ -10,7 +10,7 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-class Solution {
+class Recursive {
     public ListNode removeElements(ListNode head, int val) {
         ListNode newList = new ListNode(0);
         ListNode newHead = newList;

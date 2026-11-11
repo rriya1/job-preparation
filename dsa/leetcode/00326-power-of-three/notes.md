@@ -1,5 +1,17 @@
-<!-- any brief remarks -->
+# 326. Power of Three
+[LeetCode](https://leetcode.com/problems/power-of-three/) · **Pattern:** Math · Recursion
+
+**Key insight:** <!-- one line to remember this problem by -->
+
+| Approach | Time | Space |
+|----------|------|-------|
+| [Recursive](Recursive.java) | O(log n) | O(log n) |
+
+**Remarks:**
+
 - [ ] how to do it without recursion and loops?
+
+---
 
 ## Recursive:
 <!-- type of solution -->

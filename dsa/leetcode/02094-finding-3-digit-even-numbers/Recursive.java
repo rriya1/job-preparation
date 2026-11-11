@@ -1,6 +1,6 @@
 //simple recursion, no optemisation
 
-class Solution {
+class Recursive {
     public int[] findEvenNumbers(int[] digits) {
         int[] newarr = new int[]{-1,-1,-1};
         Set<Integer> answers = new HashSet<>();

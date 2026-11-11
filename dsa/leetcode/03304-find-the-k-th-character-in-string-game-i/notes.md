@@ -1,4 +1,17 @@
-<!-- any brief remarks -->
+# 3304. Find the K-th Character in String Game I
+[LeetCode](https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/) · **Pattern:** Simulation
+
+**Key insight:** <!-- one line to remember this problem by -->
+
+| Approach | Time | Space |
+|----------|------|-------|
+| [Iterative](Iterative.java) | O(k) | O(k) |
+
+**Remarks:**
+
+- [ ] Time is O(k), not O(log k): there are log k doublings, but the string length doubles each time, so total work is 1 + 2 + 4 + … ≈ 2k = O(k) (the geometric series fact in `dsa/notes.md`).
+
+---
 
 ## Iterative:
 <!-- type of solution -->

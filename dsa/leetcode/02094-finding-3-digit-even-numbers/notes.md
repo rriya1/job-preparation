@@ -1,6 +1,18 @@
-<!-- any brief remarks -->
+# 2094. Finding 3-Digit Even Numbers
+[LeetCode](https://leetcode.com/problems/finding-3-digit-even-numbers/) · **Pattern:** Recursion · Backtracking
+
+**Key insight:** <!-- one line to remember this problem by -->
+
+| Approach | Time | Space |
+|----------|------|-------|
+| [Recursive](Recursive.java) | O(n³), O(1) since only 3 digits | O(1), recursion depth is 3 |
+
+**Remarks:**
+
 - [ ] Explore backtracking frequency method for more optemised solution.
 - [ ] In recusrion solution, try to reduce the number of iteration of repeating numbers. if a number haas already been used in a call at the same index and it repeats in the input array then how can we save this information and avoid a redundant call?
+
+---
 
 ## Recursive:
 <!-- type of solution -->

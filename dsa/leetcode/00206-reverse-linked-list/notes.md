@@ -1,4 +1,16 @@
-<!-- any brief remarks -->
+# 206. Reverse Linked List
+[LeetCode](https://leetcode.com/problems/reverse-linked-list/) · **Pattern:** Linked List · Recursion
+
+**Key insight:** <!-- one line to remember this problem by -->
+
+| Approach | Time | Space |
+|----------|------|-------|
+| [Recursive](Recursive.java) | O(n) | O(n) |
+| [Iterative](Iterative.java) | O(n) | O(1) |
+
+**Remarks:** <!-- gotchas, comparisons between approaches, TODOs -->
+
+---
 
 ## Recursive:
 <!-- type of solution -->

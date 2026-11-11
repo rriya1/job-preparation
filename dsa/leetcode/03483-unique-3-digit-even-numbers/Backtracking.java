@@ -1,4 +1,4 @@
-class Solution {
+class Backtracking {
     public int totalNumbers(int[] digits) {
         int[] newarr = new int[]{-1,-1,-1};
         // System.out.println(newarr[0]);

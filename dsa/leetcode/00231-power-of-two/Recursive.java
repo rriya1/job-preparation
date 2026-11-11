@@ -3,7 +3,7 @@
   Memory 42.48 MB Beats 71.25%
 */
 
-class Solution {
+class Recursive {
     public boolean isPowerOfTwo(int n) {
         if(n==1)
             return true;

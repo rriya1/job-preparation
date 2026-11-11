@@ -1,4 +1,16 @@
-<!-- any brief remarks -->
+# 3483. Unique 3-Digit Even Numbers
+[LeetCode](https://leetcode.com/problems/unique-3-digit-even-numbers/) · **Pattern:** Recursion · Backtracking
+
+**Key insight:** <!-- one line to remember this problem by -->
+
+| Approach | Time | Space |
+|----------|------|-------|
+| [Recursive](Recursive.java) | O(1), 9·8·7 max | O(1), recursion depth is 3 |
+| [Backtracking](Backtracking.java) | O(1), 9·8·7 max | O(1), recursion depth is 3 |
+
+**Remarks:** <!-- gotchas, comparisons between approaches, TODOs -->
+
+---
 
 ## Recusive:
 <!-- type of solution -->

@@ -1,4 +1,4 @@
-class Solution {
+class ConstantWindow {
     public double findMaxAverage(int[] nums, int k) {
         if(nums.length == 1)
             return nums[0];

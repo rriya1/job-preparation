@@ -1,4 +1,4 @@
-class Solution {
+class Memoization {
     Integer[] fibval = new Integer[31];
     {
         fibval[0] = 0;

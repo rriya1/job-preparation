@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-public class Main {
+public class CycleSort {
     public void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
